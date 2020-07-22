@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css   "
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+<body class="bg-light form-signin">
+    <div class="bg-info clearfix">
+
+        <h5 class=" text-center  font-italic"> Pagina de Cadastro</h5>
+    </div>
+
+    <form method="POST" class="text-center">
+
+        <h1 class="text-center font-weight-bold ">Cadastrar novos Dados</h1>
+        <div>
+            <h5 class="mb-3">Preencha os Dados</h5>
+
+            <div class="container">
+
+                <input name="nome" class="form-control" placeholder="Nome Completo" value="<%=contato.nome %>" />
+
+                <div>
+                    <input name="email" class="form-control" placeholder="E-mail" value="<%=contato.email %>" />
+                </div>
+                <div>
+                    <input name="telefone" class="form-control" placeholder="Numero de telefone Ex:(00)0000-00000"
+                        value="<%=contato.telefone %>" />
+                </div>
+                <div>
+                    <input name="redesocial" class="form-control" placeholder="Digite sua Rede social "
+                        value="<%=contato.redesocial %>" />
+                </div>
+                <div>
+                    <input name="cpf" class="form-control" placeholder="Digite o CPF" value="<%=contato.cpf %>" />
+                </div>
+            </div>
+            <input type="submit" value="Salvar" />
+            <input type="hidden" value=value="<%=contato.id %>" />
+        </div>
+</body>
+</form>
