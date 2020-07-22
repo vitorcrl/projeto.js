@@ -13,7 +13,7 @@ server.use(bodyParser.json())
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '131299',
+    password: '131111',
     database: 'db_eng_esamc'
 })
 
