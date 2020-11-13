@@ -1,4 +1,4 @@
-#Projeto JavaScript
+# Projeto JavaScript
 
 ### Esse projeto tem por intuito iniciar na linguagem de JavaScript, com Back-End, Front-End e ligação com banco de dados MySql.
 
